@@ -1,0 +1,27 @@
+title: London Essentials
+lang: en
+
+tiers:
+  - { id: must, label: Must visit }
+  - { id: worth, label: Worth your time }
+  - { id: optional, label: If time permits }
+
+description:
+  required_fields: [summary, highlights, tips]
+  summary_min_chars: 80
+  summary_max_chars: 300
+  banned_patterns: ["TODO", "TBD", "lorem ipsum", "待补充", "占位"]
+
+html:
+  inline_style_only: true
+
+coverage:
+  city_qid: Q84
+  lang: en
+  top_n: 20
+
+images:
+  candidates_per_attraction: 3
+  min_width: 800
+  aspect_min: 1.2
+  aspect_max: 1.9

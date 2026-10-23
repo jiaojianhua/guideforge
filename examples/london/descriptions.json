@@ -1,0 +1,32 @@
+{
+  "british-museum": {
+    "summary": "One of the world's broadest collections of human history, from the Rosetta Stone to the Parthenon sculptures, with free entry to the permanent galleries. Arrive at opening to see the Rosetta Stone before the crowds, and give the Egyptian galleries a full hour.",
+    "highlights": ["Rosetta Stone", "Parthenon sculptures", "Egyptian mummies"],
+    "tips": "Entry is free; the map costs a few pounds but the free eyeSPOT tours at 11:00 and 14:00 are better value."
+  },
+  "tower-of-london": {
+    "summary": "A fortress, palace and prison in one, guarding the Crown Jewels for nearly a thousand years. The Yeoman Warder tours are included with admission and are genuinely funny; take the first slot of the day to see the Jewels without a long queue.",
+    "highlights": ["Crown Jewels", "Yeoman Warder tour", "White Tower"],
+    "tips": "Buy tickets online in advance for a discount; the Jewels viewing belt moves fast right at opening."
+  },
+  "big-ben": {
+    "summary": "The nickname most people use for the Elizabeth Tower and its Great Bell, the defining silhouette of Westminster beside the Houses of Parliament. Best seen from Westminster Bridge at dusk, when the tower is lit and the river traffic thins out.",
+    "highlights": ["Elizabeth Tower", "Westminster Bridge view", "Houses of Parliament"],
+    "tips": "UK residents can book a tower tour; everyone else gets the postcard view from the bridge for free."
+  },
+  "st-pauls": {
+    "summary": "Christopher Wren's cathedral, crowned by one of the largest domes on earth, with 528 steps up to a panoramic stone gallery over the City. Climb early before your legs object; the crypt, where Nelson and Wellington rest, is quietly moving.",
+    "highlights": ["The Dome climb", "Whispering Gallery", "The crypt"],
+    "tips": "No photography inside; the ticket is valid for a full year if you ask at the desk."
+  },
+  "camden-market": {
+    "summary": "A canal-side maze of street food, vintage stalls and independent shops spread across the old horse tunnels and yards. Weekends are loudest and most fun; weekdays suit browsing. The Regent's Canal towpath toward Little Venice starts right here.",
+    "highlights": ["Street food hall", "Horse tunnels", "Regent's Canal walk"],
+    "tips": "Bring cash-free patience: most stalls take cards, but the best food stalls sell out by mid-afternoon."
+  },
+  "hyde-park": {
+    "summary": "London's great green lung: 350 acres of lawns, lake and memorials, with Speakers' Corner on the northeastern edge. Rent a pedal boat on the Serpentine in summer, or just walk it end to end between Kensington Gardens and Mayfair like locals do.",
+    "highlights": ["Serpentine lake", "Speakers' Corner", "Kensington Gardens"],
+    "tips": "Sunday morning at Speakers' Corner is free theatre; pedal boats run only in fair weather."
+  }
+}

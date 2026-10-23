@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "guideforge"
+version = "0.1.0"
+description = "Mechanically-checked production pipeline for AI-written travel guides"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["llm", "ai-content", "travel", "pipeline", "validation"]
+dependencies = [
+    "requests>=2.28",
+    "Pillow>=9.0",
+    "PyYAML>=6.0",
+]
+
+[project.scripts]
+guide = "guideforge.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["guideforge*"]
+
+[tool.setuptools.package-data]
+guideforge = ["prompts/*.md", "templates/*.yaml"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-m 'not network'"
+markers = [
+    "network: hits the real network (opt in with GUIDEFORGE_LIVE=1 pytest -m network)",
+]

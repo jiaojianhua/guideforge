@@ -1,0 +1,10 @@
+{
+  "attractions": [
+    { "id": "british-museum", "name": "British Museum", "area": "Bloomsbury", "note": "free world-history collection" },
+    { "id": "tower-of-london", "name": "Tower of London", "area": "City", "note": "fortress and Crown Jewels" },
+    { "id": "big-ben", "name": "Big Ben", "area": "Westminster", "note": "Elizabeth Tower and the Great Bell" },
+    { "id": "st-pauls", "name": "St Paul's Cathedral", "query": "St Paul's Cathedral London dome", "area": "City", "note": "Wren's dome, 528 steps" },
+    { "id": "camden-market", "name": "Camden Market", "area": "Camden", "note": "canal-side food and vintage" },
+    { "id": "hyde-park", "name": "Hyde Park", "area": "Mayfair", "note": "350 acres of green" }
+  ]
+}

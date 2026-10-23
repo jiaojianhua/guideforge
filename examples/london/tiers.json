@@ -1,0 +1,5 @@
+{
+  "must": ["british-museum", "tower-of-london", "big-ben"],
+  "worth": ["st-pauls", "camden-market"],
+  "optional": ["hyde-park"]
+}
