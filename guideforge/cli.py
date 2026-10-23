@@ -50,7 +50,10 @@ def cmd_init(args):
 def cmd_check(args):
     root = require_root(args)
     spec = load_spec(root)
-    names = args.stages or list(TEXT_STAGES)
+    names = list(args.stages) if args.stages else list(TEXT_STAGES)
+    unknown = [n for n in names if n not in ALL_STAGES]
+    if unknown:
+        sys.exit(f"unknown stages: {unknown} (choose from {sorted(ALL_STAGES)})")
     reports = [ALL_STAGES[n](root, spec) for n in names]
     print(render(reports))
     bad = sum(1 for r in reports if not r.ok)
@@ -115,7 +118,7 @@ def main(argv=None):
     sp.set_defaults(fn=cmd_init)
 
     sp = sub.add_parser("check", help="run mechanical acceptance checks")
-    sp.add_argument("stages", nargs="*", choices=sorted(ALL_STAGES))
+    sp.add_argument("stages", nargs="*", default=None)
     sp.set_defaults(fn=cmd_check)
 
     sp = sub.add_parser("images", help="fetch + validate candidate images")
